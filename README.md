@@ -5,3 +5,11 @@ git 详解
 
 git clone https://github.com/marquis11/git.git
 
+
+
+### git 添加修改文件
+
+git add . or  git add  <file>
+
+
+
