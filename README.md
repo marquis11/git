@@ -45,3 +45,11 @@ git reset --hard 1094a  -- 为 commit id  不必全写，历史的id 可以通�
 - 穿梭前，用`git log`可以查看提交历史，以便确定要回退到哪个版本。
 - 要重返未来，用`git reflog`查看命令历史，以便确定要回到未来的哪个版本。
 
+
+
+### git 撤销修改
+
+1, git checkout -- file 可以丢弃工作区的修改；
+
+2, git add 暂存区,  没有 commit ，用命令`git reset HEAD `<file>可以把暂存区的修改撤销掉（unstage），重新放回工作区；
+
