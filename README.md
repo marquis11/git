@@ -23,3 +23,25 @@ git add -A ：是上面两个功能的合集（git add --all的缩写）
 
 git commit - m ""     -m 为描述性信息
 
+
+
+### git 日志操作
+
+git log  可以查看最终的操作  ， q 为退出日志;
+
+git reflog   用来记录你的每一次命令;
+
+
+
+### git 版本回退
+
+git reset --hard HEAD^
+
+git reset --hard 1094a  -- 为 commit id  不必全写，历史的id 可以通过  git reflog  查询；
+
+现在总结一下：
+
+- `HEAD`指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令`git reset --hard commit_id`。
+- 穿梭前，用`git log`可以查看提交历史，以便确定要回退到哪个版本。
+- 要重返未来，用`git reflog`查看命令历史，以便确定要回到未来的哪个版本。
+
