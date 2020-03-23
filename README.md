@@ -84,3 +84,6 @@ git reset --hard 1094a  -- 为 commit id  不必全写，历史的id 可以通�
 3，第2步：登陆GitHub，打开“Account settings”，“SSH Keys”页面：
 
 然后，点“Add SSH Key”，填上任意Title，在Key文本框里粘贴`id_rsa.pub`文件的SSH key 内容；
+
+4， git push -u origin master   -u 是第一次提交至远程仓库要带的
+
