@@ -89,3 +89,21 @@ git reset --soft HEAD^   版本回退，但是不会去除修改部分。
 
 4， git push -u origin master   -u 是第一次提交至远程仓库要带的
 
+
+
+## 分支管理
+
+首先，我们创建`dev`分支，然后切换到`dev`分支：
+
+$ git checkout -b dev
+Switched to a new branch 'dev'
+
+`git checkout`命令加上`-b`参数表示创建并切换，相当于以下两条命令：
+
+$ git branch dev
+$ git checkout dev
+Switched to branch 'dev'
+
+
+
+git branch 为 查看当前分支
