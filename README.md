@@ -150,3 +150,15 @@ Git鼓励大量使用分支：
 
 在手动合并后  ，在 git add file ,  git  commit 
 
+
+
+### 通过 --no-ff 合并
+
+1，git merge --no-ff -m "merge with no-ff"  &lt;branchName&gt;
+
+2，-m 是再主分支上进行的提交
+
+3，git log --graph --pretty=oneline --abbrev-commit 查询log 会显示合并记录
+
+
+
