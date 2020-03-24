@@ -142,9 +142,11 @@ Git鼓励大量使用分支：
 
 ### 合并分支
 
-<<<<<<< HEAD
-确实切分支
-=======
-需要merge1
->>>>>>> feature1
+1，分支 commit 后
+
+2，主分支 commit 后 
+
+3 ，主分支 需要  git merge  feature1  分支 时候显示冲突，需要手动合并，
+
+在手动合并后  ，在 git add file ,  git  commit 
 
