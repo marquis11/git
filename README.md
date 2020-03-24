@@ -45,6 +45,8 @@ git reset --hard 1094a  -- 为 commit id  不必全写，历史的id 可以通�
 - 穿梭前，用`git log`可以查看提交历史，以便确定要回退到哪个版本。
 - 要重返未来，用`git reflog`查看命令历史，以便确定要回到未来的哪个版本。
 
+git reset --soft HEAD^   版本回退，但是不会去除修改部分。
+
 
 
 ### git 撤销修改
