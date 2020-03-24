@@ -142,23 +142,23 @@ Git鼓励大量使用分支：
 
 ### 合并分支
 
-1，分支 commit 后
+1，分支 commit 后；
 
-2，主分支 commit 后 
+2，主分支 commit 后 ；
 
 3 ，主分支 需要  git merge  feature1  分支 时候显示冲突，需要手动合并，
 
-在手动合并后  ，在 git add file ,  git  commit 
+在手动合并后  ，在 git add file ,  git  commit ；
 
 
 
 ### 通过 --no-ff 合并
 
-1，git merge --no-ff -m "merge with no-ff"  &lt;branchName&gt;
+1，git merge --no-ff -m "merge with no-ff"  &lt;branchName&gt;  ；
 
-2，-m 是再主分支上进行的提交
+2，-m 是再主分支上进行的提交；
 
-3，git log --graph --pretty=oneline --abbrev-commit 查询log 会显示合并记录
+3，git log --graph --pretty=oneline --abbrev-commit 查询log 会显示合并记录；
 
 
 
