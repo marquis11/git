@@ -9,7 +9,7 @@ git clone https://github.com/marquis11/git.git
 
 ### git 添加修改文件
 
-git add  <file>
+git add  &lt;file&gt;
 
 git add . ：他会监控工作区的状态树，使用它会把工作时的所有变化提交到暂存区，包括文件内容修改(modified)以及新文件(new)，但不包括被删除的文件。
 
@@ -53,15 +53,15 @@ git reset --soft HEAD^   版本回退，但是不会去除修改部分。
 
 1, git checkout -- file 可以丢弃工作区的修改；
 
-2, git add 暂存区,  没有 commit ，用命令`git reset HEAD `<file>可以把暂存区的修改撤销掉（unstage），重新放回工作区；
+2, git add 暂存区,  没有 commit ，用命令`git reset HEAD `&lt;file&gt;可以把暂存区的修改撤销掉（unstage），重新放回工作区；
 
 
 
 ### git 删除文件
 
-1, 正常删除  git rm <file>  ，并且 要提交  git commit - m "...."
+1, 正常删除  git rm &lt;file&gt;  ，并且 要提交  git commit - m "...."
 
-2，错误删除  ，在已经 commit  的情况下  通过 git checkout -- <file> 可以恢复误删的文件，
+2，错误删除  ，在已经 commit  的情况下  通过 git checkout -- &lt;file&gt; 可以恢复误删的文件，
 
 注意： 
 
