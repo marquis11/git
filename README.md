@@ -93,7 +93,9 @@ git reset --soft HEAD^   版本回退，但是不会去除修改部分。
 
 ## 分支管理
 
-首先，我们创建`dev`分支，然后切换到`dev`分支：
+### 创建分支
+
+1，首先，我们创建`dev`分支，然后切换到`dev`分支：
 
 $ git checkout -b dev
 Switched to a new branch 'dev'
@@ -104,6 +106,41 @@ $ git branch dev
 $ git checkout dev
 Switched to branch 'dev'
 
-
-
 git branch 为 查看当前分支
+
+
+
+2，合并分支
+
+ git merge dev
+
+git merge 命令用于合并指定分支到当前分支。
+
+3，删除分支
+
+git branch -d dev 
+
+
+
+小结
+
+Git鼓励大量使用分支：
+
+查看分支：`git branch`
+
+创建分支：`git branch `
+
+切换分支：`git checkout `
+
+创建+切换分支：`git checkout -b `
+
+合并某分支到当前分支：`git merge `
+
+删除分支：`git branch -d `
+
+
+
+### 合并分支
+
+
+
