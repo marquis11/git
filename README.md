@@ -97,7 +97,7 @@ git reset –hard HEAD^
 
 然后，点“Add SSH Key”，填上任意Title，在Key文本框里粘贴`id_rsa.pub`文件的SSH key 内容；
 
-4， git push -u origin master   -u 是第一次提交至远程仓库要带的
+4， git push -u origin master   -u 是第一次提交至远程仓库要带的;
 
 
 
