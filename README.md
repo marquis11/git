@@ -5,6 +5,18 @@
 
 git clone https://github.com/marquis11/git.git
 
+## git init 关联远程仓库
+
+git init  -初始化本地仓库
+
+git remote -v 若无信息 ，则没有与远程仓库进行管理
+
+git remote add origin https://github.com/.....关联远程仓库
+
+git remote -v 若有信息，则关联远程仓库成功
+
+git pull origin master  拉取远程仓库的代码
+
 
 
 ### git 添加修改文件
