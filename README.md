@@ -29,7 +29,13 @@ git add -u ：他仅监控已经被add的文件（即tracked file），他会将
 
 git add -a ：是上面两个功能的合集（git add --all的缩写）
 
+将 add 的文件进行 逻辑删除
 
+git rm --cached "文件路径"
+
+git rm --f "文件路径"
+
+git reset HEAD （谨慎使用）
 
 ### git 提交至本地仓库
 
